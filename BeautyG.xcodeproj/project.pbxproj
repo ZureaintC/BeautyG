@@ -14,6 +14,9 @@
 		56EDAAFF1D51D87F0062BB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EDAAFD1D51D87F0062BB5D /* LaunchScreen.storyboard */; };
 		56EDAB0A1D51D87F0062BB5D /* BeautyGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAB091D51D87F0062BB5D /* BeautyGTests.swift */; };
 		56EDAB151D51D87F0062BB5D /* BeautyGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAB141D51D87F0062BB5D /* BeautyGUITests.swift */; };
+		56EDAB231D51DC3E0062BB5D /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAB221D51DC3E0062BB5D /* ViewControllerExtension.swift */; };
+		56EDAB251D51DFA80062BB5D /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAB241D51DFA80062BB5D /* GalleryController.swift */; };
+		56EDAB271D51F1190062BB5D /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EDAB261D51F1190062BB5D /* KoreanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		56EDAB101D51D87F0062BB5D /* BeautyGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56EDAB141D51D87F0062BB5D /* BeautyGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyGUITests.swift; sourceTree = "<group>"; };
 		56EDAB161D51D87F0062BB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EDAB221D51DC3E0062BB5D /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		56EDAB241D51DFA80062BB5D /* GalleryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		56EDAB261D51F1190062BB5D /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				56EDAAF41D51D87F0062BB5D /* AppDelegate.swift */,
 				56EDAAF61D51D87F0062BB5D /* ViewController.swift */,
+				56EDAB221D51DC3E0062BB5D /* ViewControllerExtension.swift */,
 				56EDAAF81D51D87F0062BB5D /* Main.storyboard */,
 				56EDAAFB1D51D87F0062BB5D /* Assets.xcassets */,
 				56EDAAFD1D51D87F0062BB5D /* LaunchScreen.storyboard */,
 				56EDAB001D51D87F0062BB5D /* Info.plist */,
+				56EDAB241D51DFA80062BB5D /* GalleryController.swift */,
+				56EDAB261D51F1190062BB5D /* KoreanViewController.swift */,
 			);
 			path = BeautyG;
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56EDAAF71D51D87F0062BB5D /* ViewController.swift in Sources */,
+				56EDAB271D51F1190062BB5D /* KoreanViewController.swift in Sources */,
+				56EDAB231D51DC3E0062BB5D /* ViewControllerExtension.swift in Sources */,
+				56EDAB251D51DFA80062BB5D /* GalleryController.swift in Sources */,
 				56EDAAF51D51D87F0062BB5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
